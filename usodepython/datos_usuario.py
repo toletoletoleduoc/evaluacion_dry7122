@@ -1,0 +1,11 @@
+nombre = input('Ingrese su nombre: ')
+apellido = input('Ingrese su apellido: ')
+codigosec = input('Ingrese su código de sección: ')
+sede = input('Ingrese su sede: ')
+print('\nGracias por ingresar sus datos, su información se presentará a continuación.')
+
+print('\n\n----Datos Recolectados----\n')
+print(f'Nombre: {nombre}')
+print(f'Apellido: {apellido}')
+print(f'Código de sección: {codigosec}')
+print(f'Nombre de sede: {sede}')
